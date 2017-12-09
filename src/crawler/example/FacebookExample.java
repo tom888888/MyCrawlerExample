@@ -24,10 +24,10 @@ public class FacebookExample {
 		// 遠端資料路徑
 		// [query sample]
 		// search?fields=name,id,likes,talking_about_count&limit=1000&q=靠北&type=page
-		String uri = 
-				"https://graph.facebook.com/v2.5"
-				+ "/search?q=%E9%9D%A0%E5%8C%97&type=page&limit=1000&fields=name,id,likes,talking_about_count"
-				+ "&access_token=EAACEdEose0cBAOklIduPuayeWpkDE3pIRZAMPwrP0JvjUKH6xLKKmaloZCOJk0bInIPX1iJLianEZAhZCOH2dT0rqmNTupuYDVnwCEH09IoW8MP1EneWZAHJKqyZAv25xp0LjEiuAmU4ffZBbCvQhqPIh6m8bob4uUSodBh3jYaVuHVgmSUjdvvVPEY7Hvm8YsZD";
+		String uri =
+				"https://graph.facebook.com/v2.11"
+		        +"/search?q=%E7%88%86%E6%96%99&type=page&limit=1000&fields=name%2Cid%2Clikes%2Ctalking_about_count%2Cfan_count"
+		        +"&access_token=EAACEdEose0cBAByBtkb7APMyWfYRgeX4VPFW5r4KlsRo0ZC2EOg0pwJKQTiAMihHfnOOYiWJ5RWFihZBsy7GBkbJUk12LQvkym1ITxhh4NXBHEZBkdZAYF1aDZA7q2Il2Ek2tmZCzmFdBpORvbt5biD7J3iNSAO2J6zHnPvkKf2ZBcU4ZAw0pEOb6EaLCpUwALEZD";
 
 
 
