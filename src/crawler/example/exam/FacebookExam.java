@@ -25,8 +25,8 @@ public class FacebookExam {
 
 		String uri = 
 				"https://graph.facebook.com/v2.6"
-				+ "/search?q="
-				+ "&access_token=";
+				+ "/birdwowo.restaurant/posts?fields=id,link,message,created_time,likes.limit(0).summary(total_count),reactions.limit(0).summary(total_count)"
+				+ "&access_token=EAACEdEose0cBAOq6DhT4IetGn0JRXPdSbZASWfW2Xj4taeGp7sS6C8ZC854Jfrw7wmkuIjeeJLHekZBxm5hoPToYjR3FEZAJ8XusAuiDdK1mGLO6EGkjIfAkW0UyfAMZBtzEwYShbrcrP73RIl555aASWV53AKUUFTFUCNZALagXfZA3tnJefMbVHsBdz6N8IsZD";
 
 
 		Elements elems =
