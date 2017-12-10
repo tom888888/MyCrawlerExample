@@ -14,7 +14,7 @@ public class FBElasticImport {
     static String elasticPort = "9200" ;
     static String elasticIndex = "tom888888";
     static String elasticIndexType = "data";
-    static String pageName = "appledaily.tw";
+    static String pageName = "nba";
     // 2017-12-09
     static long start = 1512777600;
     // 往前抓抓取日期數
